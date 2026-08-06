@@ -1,0 +1,10 @@
+{
+  "buildCommand": "node scripts/build.mjs",
+  "outputDirectory": "dist",
+  "rewrites": [
+    {
+      "source": "/((?!course-finder-route.png|src/.*).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
